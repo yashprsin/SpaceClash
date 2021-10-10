@@ -10,7 +10,7 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 # Background
-background = pygame.image.load('background.png')
+background = pygame.image.load('Background of Space clash.png')
 
 # Background Sound
 mixer.music.load('background.wav')
@@ -22,7 +22,7 @@ icon = pygame.image.load("ufo.png")
 pygame.display.set_icon(icon)
 
 # Player
-Player_image = pygame.image.load("space-invaders.png")
+Player_image = pygame.image.load("spaceship.png")
 Player_x = 370
 Player_y = 480
 Player_x_change = 0
